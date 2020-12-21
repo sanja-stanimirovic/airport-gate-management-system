@@ -15,6 +15,6 @@ The API is accessible only to admin
     username: admin
     password: admin
 
-\* both can (and should) be changed in <i>application.properties</i>
+\* both can be changed in <i>application.properties</i>
 
 
