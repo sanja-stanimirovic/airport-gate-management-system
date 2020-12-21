@@ -1,0 +1,24 @@
+INSERT INTO gate (id, opening_hours, closing_hours ) VALUES ('A', '00:00:00', '23:59:59');
+INSERT INTO gate (id, opening_hours, closing_hours ) VALUES ('AB', '00:00:00', '23:59:59');
+INSERT INTO gate (id, opening_hours, closing_hours ) VALUES ('ABC', '00:00:00', '23:59:59');
+INSERT INTO gate (id, opening_hours, closing_hours ) VALUES ('AB-BC', '00:00:00', '23:59:59');
+INSERT INTO gate (id, opening_hours, closing_hours ) VALUES ('AA-AA', '00:00:00', '23:59:59');
+INSERT INTO gate (id, opening_hours, closing_hours ) VALUES ('BB-BB', '00:00:00', '23:59:59');
+INSERT INTO gate (id, opening_hours, closing_hours ) VALUES ('CC-CC', '00:00:00', '23:59:59');
+INSERT INTO gate (id, opening_hours, closing_hours ) VALUES ('AC-AC', '00:00:00', '23:59:59');
+INSERT INTO gate (id, opening_hours, closing_hours ) VALUES ('AB-AB', '00:00:00', '23:59:59');
+INSERT INTO gate (id, opening_hours, closing_hours ) VALUES ('BA-BA', '00:00:00', '23:59:59');
+INSERT INTO gate (id, opening_hours, closing_hours ) VALUES ('DD', '00:00:00', '23:59:59');
+
+INSERT INTO flight (id, gate_id) VALUES ('AA1234', 'CC-CC');
+INSERT INTO flight (id, gate_id) VALUES ('AA2234', null);
+INSERT INTO flight (id, gate_id) VALUES ('AA3234', null);
+INSERT INTO flight (id, gate_id) VALUES ('AA4234', null);
+INSERT INTO flight (id, gate_id) VALUES ('AA5234', null);
+INSERT INTO flight (id, gate_id) VALUES ('AA1134', null);
+INSERT INTO flight (id, gate_id) VALUES ('AA2334', null);
+INSERT INTO flight (id, gate_id) VALUES ('AA3434', null);
+INSERT INTO flight (id, gate_id) VALUES ('AA4534', null);
+INSERT INTO flight (id, gate_id) VALUES ('AA5634', null);
+INSERT INTO flight (id, gate_id) VALUES ('AB1234', null);
+INSERT INTO flight (id, gate_id) VALUES ('DD5634', null);
