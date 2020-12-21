@@ -1,4 +1,4 @@
-<h1> Airport Gate Management System* <h1>
+<h1> Airport Gate Management System* </h1>
 
 \* code challenge solution
 
